@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button{
+font-family: 'Bungee', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+
+}
+
+h1{
+    text-shadow: 5px 2px 2px #000;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+h1 img{
+    height: 50px;
+}
+
+header{
+    padding: 10px 0;
+    background-color: #bb1111;
+    color: #ecf0f1;
+}
+
+header nav li{
+    display: inline;
+    margin: 16px;
+    font-size: 18px;
+    
+    
+}
+
+header nav li a{
+    display: inline;
+    margin: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p{
+    font-style: italic;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#marvel {
+    height: 30px;
+    float: right;;
+}
+
+
+
+.brands-list li{
+    display: inline;
+    margin-right: 2px;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px 0;
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+
+section h2{
+    color: #bb1111;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+.spider{
+    margin-right: 32px;
+    height: 500px
+}
+
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 420px;
+    margin-bottom: 8px;
+    padding: 8px;
+    text-align: left;
+}
+
+#video{
+    margin-left: 30px;
+}
+
+#coments {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-top: 100px;
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color: #bb1111;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+form button:hover{
+    background-color: red;
+
+
+}
+
+input:focus, textarea:focus{
+    outline-color: red;
+}
+
+footer{
+    background-color: #1845c2;
+    color: #ecf0f1;
+    padding: 16px;
+    display: flex;
+    font-style: italic;
+}
+
+
+
+
+
+
